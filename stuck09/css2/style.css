@@ -1,0 +1,159 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Apple Chancery', sans-serif;
+}
+
+#main {
+    padding: 30px;
+    background: url("../img2/Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    position: relative;
+}
+
+#logoText {
+    color: #ce08ff;
+    text-align: center;
+    font-family: SFProDisplay;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    font-family: 'Apple Chancery', sans-serif;
+}
+
+.marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: #fefefe;
+    color: #333;
+    border: 1px solid #4a4a4a;
+ }
+ 
+ .marquee p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    transform: translateX(100%);
+    animation: scroll-left 10s linear infinite;
+    bottom: 0;
+ }
+ .tshirt-block {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-95%, -60%);
+    background: black;
+    color: #000000;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 550px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    font-family: 'Apple Chancery', sans-serif;
+    text-align: center;
+   }
+   
+   .tshirt-block img {
+    max-width: 100%;
+    height: auto;
+   }
+   
+   .tshirt-block p {
+    color: #9110c4;
+    font-size: 20px;
+    text-align: center;
+   }
+   .tshirt-blockz {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(20%, -60%);
+    background: black;
+    color: #000000;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 550px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    font-family: 'Apple Chancery', sans-serif;
+    text-align: center;
+   }
+   
+   .tshirt-blockz img {
+    max-width: 100%;
+    height: auto;
+   }
+   
+   .tshirt-blockz p {
+    color: #9110c4;
+    font-size: 20px;
+    text-align: center;
+   }
+   .tshirt-block button, .tshirt-blockz button {
+    background-color: #a71aa7;
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+   }
+   .tshirt-block button:hover, .tshirt-blockz button:hover {
+    background-color: white;
+    color: #a71aa7;
+   }
+   #cart {
+    position: fixed;
+    top: 3%;
+    left: 90%;
+    background: black;
+    color: #ce20d4;
+    width: 300px;
+    height: 200px;
+    overflow-y: auto;
+   }
+   .checkout-button {
+    position: fixed;
+    top: 21%;
+    left: 90%;
+    background-color: #a71aa7;
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+ }
+   #cart:hover {
+    display: block;
+   }
+ @keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+}
+ }

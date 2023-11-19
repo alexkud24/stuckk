@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css2/style.css">
+   <script src="js/script.js"></script>
+   <link rel="preconnect" href="https://fonts.cdnfonts.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.cdnfonts.com/css/apple-chancery" rel="stylesheet">
+   <title>Document</title>
+</head>
+<body>
+   <section id="main">
+       <div id="header">
+           <div id="society"></div>
+           <h2 id="logoText" onclick="window.history.back();">STUCK09</h2>
+           <div id="group"></div>
+       </div>
+   </section>
+   <div class="tshirt-block">
+    <img src="img2/1.png" alt="First T-shirt">
+    <p>TSHIRT 1 BLACK
+        <p>$40.00 USD</p>
+    </p>
+    <button onclick="addToCart({name: 'TSHIRT 1 BLACK'})">Add to Cart</button>
+    <button onclick="removeFromCart('TSHIRT 1 BLACK')">Remove from Cart</button>
+  </div>
+  <div class="tshirt-blockz">
+    <img src="img2/2.png" alt="Second T-shirt">
+    <p>TSHIRT 2 BLACK
+        <p>$40.00 USD</p>
+    </p>
+    <button onclick="addToCart({name: 'TSHIRT 2 BLACK'})">Add to Cart</button>
+    <button onclick="removeFromCart('TSHIRT 2 BLACK')">Remove from Cart</button>
+  </div>
+  <div id="cart">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <button id="checkout-button" class="checkout-button" onclick="checkout()" style="display: none;">Checkout</button>
+</div>
+   <div class="marquee">
+       <p>STUCK09 ESTATE ABSOLUTE GUARANTEE EMPTY VOID DISCRETION SECRET SERVICE TOTAL INTEGRITY POLICY OF OUR PROTECTED TRADEMARK SO HI HEAVY WEIGHT</p>
+   </div>
+</body>
+</html>
