@@ -37,3 +37,8 @@ window.onload = function() {
      updateCart();
     }
    }
+   document.getElementById('loginBtn').addEventListener('click', function() {
+    var loginPanel = document.getElementById('loginPanel');
+    loginPanel.style.display = loginPanel.style.display === 'none' ? 'block' : 'none';
+   });
+   

@@ -5,21 +5,16 @@ body {
     height: 100vh;
     font-family: 'Apple Chancery', sans-serif;
 }
-
 #main {
     padding: 30px;
     background: url("../img/Background.jpg");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     height: 92vh;
-    position: relative;
 }
-
 #logoText {
     color: #ce08ff;
     text-align: center;
-    font-family: SFProDisplay;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -28,7 +23,6 @@ body {
     margin: 0 auto;
     font-family: 'Apple Chancery', sans-serif;
 }
-
 #SHOP {
     position:absolute;
     top:50%;
@@ -42,7 +36,6 @@ body {
     height: 80px;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
     cursor: pointer;
     font-family: 'Apple Chancery', sans-serif;
     text-align: center;
@@ -55,7 +48,6 @@ body {
     color: #333;
     border: 1px solid #4a4a4a;
  }
- 
  .marquee p {
     position: absolute;
     width: 100%;
@@ -67,11 +59,39 @@ body {
     animation: scroll-left 10s linear infinite;
     bottom: 0;
  }
- 
+ #loginBtn {
+    position: fixed;
+    top: 5%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+    background: #86289e;
+    color: #000000;
+    font-size: 40px;
+    display: flex;
+    width: 120px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Apple Chancery', sans-serif;
+    text-align: center;
+   }
+   #loginPanel {
+    position: fixed;
+    top: 20%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background: #86289e;
+    color: #000000;
+    border: 1px solid black;
+    padding: 20px;
+    display: none;
+   }
  @keyframes scroll-left {
     0% {
         transform: translateX(100%);
     }
     100% {
         transform: translateX(-100%);
+}
 }

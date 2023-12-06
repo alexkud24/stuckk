@@ -5,7 +5,6 @@ body {
     height: 100vh;
     font-family: 'Apple Chancery', sans-serif;
 }
-
 #main {
     padding: 30px;
     background: url("../img2/Background.jpg");
@@ -15,7 +14,6 @@ body {
     height: 92vh;
     position: relative;
 }
-
 #logoText {
     color: #ce08ff;
     text-align: center;
@@ -28,7 +26,6 @@ body {
     margin: 0 auto;
     font-family: 'Apple Chancery', sans-serif;
 }
-
 .marquee {
     height: 50px;
     overflow: hidden;
@@ -37,7 +34,6 @@ body {
     color: #333;
     border: 1px solid #4a4a4a;
  }
- 
  .marquee p {
     position: absolute;
     width: 100%;
@@ -69,12 +65,10 @@ body {
     font-family: 'Apple Chancery', sans-serif;
     text-align: center;
    }
-   
    .tshirt-block img {
     max-width: 100%;
     height: auto;
    }
-   
    .tshirt-block p {
     color: #9110c4;
     font-size: 20px;
@@ -100,12 +94,10 @@ body {
     font-family: 'Apple Chancery', sans-serif;
     text-align: center;
    }
-   
    .tshirt-blockz img {
     max-width: 100%;
     height: auto;
    }
-   
    .tshirt-blockz p {
     color: #9110c4;
     font-size: 20px;
