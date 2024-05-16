@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let loginForm = document.getElementById('form');
 
     loginBtn.addEventListener('click', function() {
-        if (loginPanel.style.display == 'none') {
+        if (loginPanel.style.display === 'none' || loginPanel.style.display === '') {
             loginPanel.style.display = 'block';
         } else {
             loginPanel.style.display = 'none';
